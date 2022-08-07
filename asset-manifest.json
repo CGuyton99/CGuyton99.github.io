@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c8b8442.css",
-    "main.js": "/static/js/main.773c9158.js",
+    "main.js": "/static/js/main.0854464b.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/SignInMockup.png": "/static/media/SignInMockup.288ea069ea62e12f7841.png",
     "static/media/MusicMockup.png": "/static/media/MusicMockup.4541f39bdfaaa048563a.png",
@@ -9,7 +9,7 @@
     "static/media/StreamingMockup.png": "/static/media/StreamingMockup.743dc9873f2ad7307003.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.c1077aab305fdde03da3.png",
     "static/media/NewsletterMockup.png": "/static/media/NewsletterMockup.2c852cf73343ef2c8ae4.png",
-    "static/media/color-sharp2.png": "/static/media/color-sharp2.537afc5bb11bd84518f7.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.78ce81a83a13435e06a9.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.5e20f8d3032fdc197d56.png",
     "static/media/MusicoalitionCaseStudy.png": "/static/media/MusicoalitionCaseStudy.b8c995acb785e69fb7e1.png",
     "static/media/VPalCaseStudy.png": "/static/media/VPalCaseStudy.e76d79a16d276eea85e2.png",
@@ -35,11 +35,11 @@
     "static/media/arrow2.svg": "/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.9c8b8442.css.map": "/static/css/main.9c8b8442.css.map",
-    "main.773c9158.js.map": "/static/js/main.773c9158.js.map",
+    "main.0854464b.js.map": "/static/js/main.0854464b.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c8b8442.css",
-    "static/js/main.773c9158.js"
+    "static/js/main.0854464b.js"
   ]
 }
