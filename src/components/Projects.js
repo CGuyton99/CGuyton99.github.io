@@ -10,6 +10,9 @@ import caseStudy1 from "../assets/img/MusicoalitionCaseStudy.png";
 import caseStudy2 from "../assets/img/VPalCaseStudy.png";
 import caseStudy3 from "../assets/img/LifeboatCaseStudy.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import webDev1 from "../assets/img/RPSWebDev.png";
+import webDev2 from "../assets/img/WeatherWebDev.png";
+import webDev3 from "../assets/img/NetflixWebDev";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -76,6 +79,27 @@ export const Projects = () => {
     },
   ];
 
+  const webdev = [
+    {
+      title: "Rock, Paper, Scissors, Shoot!",
+      description: "Javascript, HTML, CSS",
+      imgUrl: webDev1,
+      SrcUrl: "https://cguyton99.github.io/RPS/"
+    },
+    {
+      title: "Weather App",
+      description: "React.js",
+      imgUrl: webDev2,
+      SrcUrl: "https://cguyton99.github.io/weather-app/"
+    },
+    {
+      title: "Netflix Clone",
+      description: "React.js",
+      imgUrl: webDev3,
+      SrcUrl: "https://cguyton99.github.io/Netflix-Clone-ReactJS/"
+    },
+  ];
+
   return (
     <section className="project" id="project">
       <Container>
@@ -95,7 +119,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Case Studies</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Coming Soon</Nav.Link>
+                      <Nav.Link eventKey="third">Web Dev</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -129,7 +153,19 @@ export const Projects = () => {
                       </Row>
                       </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>More coming soon!</p>
+                      <p>Click Application to See More</p>
+                      <Row>
+                        {
+                          webdev.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
