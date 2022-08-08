@@ -15,9 +15,9 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-            <a href="https://www.linkedin.com/in/cguyton99/"><img src={navIcon1} alt="LinkedIn" /></a>
-                <a href="https://www.behance.net/CGuyton"><img src={navIcon2} alt="Behance" /></a>
-                <a href="https://github.com/CGuyton99"><img src={navIcon3} alt="GitHub" /></a>
+            <a href="https://www.linkedin.com/in/cguyton99/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="LinkedIn" /></a>
+                <a href="https://www.behance.net/CGuyton" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Behance" /></a>
+                <a href="https://github.com/CGuyton99" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="GitHub" /></a>
             </div>
             <p>Copyright © 2022 Christian Guyton. All rights reserved.</p>
           </Col>
