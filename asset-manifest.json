@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.2dcd03c0.css",
-    "main.js": "/static/js/main.77cee0d4.js",
+    "main.js": "/static/js/main.e1fd8585.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/SignInMockup.png": "/static/media/SignInMockup.288ea069ea62e12f7841.png",
     "static/media/MusicMockup.png": "/static/media/MusicMockup.4541f39bdfaaa048563a.png",
     "static/media/LandingPageMockup.png": "/static/media/LandingPageMockup.cc9b177defeb7ea2c7f4.png",
+    "static/media/WeatherWebDev.png": "/static/media/WeatherWebDev.694e542111c1d62129ab.png",
     "static/media/StreamingMockup.png": "/static/media/StreamingMockup.743dc9873f2ad7307003.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.c1077aab305fdde03da3.png",
     "static/media/NewsletterMockup.png": "/static/media/NewsletterMockup.2c852cf73343ef2c8ae4.png",
@@ -13,12 +14,14 @@
     "static/media/banner-bg.png": "/static/media/banner-bg.5e20f8d3032fdc197d56.png",
     "static/media/MusicoalitionCaseStudy.png": "/static/media/MusicoalitionCaseStudy.b8c995acb785e69fb7e1.png",
     "static/media/VPalCaseStudy.png": "/static/media/VPalCaseStudy.e76d79a16d276eea85e2.png",
+    "static/media/RPSWebDev.png": "/static/media/RPSWebDev.c44a497d36a7a9000c95.png",
     "static/media/header-img.png": "/static/media/header-img.e05374d5f73773fc19c8.png",
     "static/media/Communication.png": "/static/media/Communication.8741df62a567753032f3.png",
     "static/media/LifeboatCaseStudy.png": "/static/media/LifeboatCaseStudy.360e8f7966a5c58f3998.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/NetflixWebDev.png": "/static/media/NetflixWebDev.3019de35e7e4265551a9.png",
     "static/media/Coming Soon.png": "/static/media/Coming Soon.51795b334b5b3d4b70b3.png",
     "static/media/logo.png": "/static/media/logo.30a1d5226b6037f8d2f9.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -35,11 +38,11 @@
     "static/media/arrow2.svg": "/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.2dcd03c0.css.map": "/static/css/main.2dcd03c0.css.map",
-    "main.77cee0d4.js.map": "/static/js/main.77cee0d4.js.map",
+    "main.e1fd8585.js.map": "/static/js/main.e1fd8585.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2dcd03c0.css",
-    "static/js/main.77cee0d4.js"
+    "static/js/main.e1fd8585.js"
   ]
 }
