@@ -63,7 +63,7 @@ export const Contact = () => {
                 <p><b>Email:</b> <a href="mailto:cguytt3e@gmail.com?subject=Let's Connect!"> cguytt3e@gmail.com</a></p>
                 <p><b>Alternate Email:</b> <a href="mailto:cguyton@icstars.org?subject=Let's Connect!!">cguyton@icstars.org</a></p>
                 <p><b>Phone:</b> +1 (414) 399-8464</p>
-                <p><i>Or reach out to me via <a href="https://www.linkedin.com/in/cguyton99/">LinkedIn!</a></i></p>
+                <p><i>Or reach out to me via <a href="https://www.linkedin.com/in/cguyton99/" target="_blank" rel="noopener noreferrer">LinkedIn!</a></i></p>
                 </div>
               </div>}
             </TrackVisibility>
