@@ -19,7 +19,7 @@ export const Footer = () => {
                 <a href="https://www.behance.net/CGuyton" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Behance" /></a>
                 <a href="https://github.com/CGuyton99" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="GitHub" /></a>
             </div>
-            <p>Copyright © 2022 Christian Guyton. All rights reserved.</p>
+            <p>Copyright © 2022-2026 Christian Guyton. All rights reserved.</p>
           </Col>
         </Row>
       </Container>

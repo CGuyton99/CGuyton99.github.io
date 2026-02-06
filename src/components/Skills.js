@@ -1,74 +1,63 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 
-export const Skills = () => {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-
+export const Achievements = () => {
   return (
-    <section className="skill" id="skills">
+    <section className="achievement" id="achievements">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
+            <div className="achievement-bx wow fadeInUp">
+              <h2>Achievements</h2>
               <p>
-                My skills are essential aspects of me.<br></br>I have sharpened both my creative and professional abilities through experience and learning
+                Not just what I know, but what I’ve done.<br />
+                Each highlight reflects impact, growth, and real-world results.
               </p>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                className="owl-carousel owl-theme skill-slider"
-              >
-                <div className="item">
-                  <h5>React.js</h5>
-                  <h5>Next.js</h5>
-                  <h5>Node.js</h5>
+
+              <div className="achievement-grid">
+
+                <div className="glass-tile">
+                  <h5>Registered Apprenticeship</h5>
+                  <p>Completed a U.S. Department of Labor certified software apprenticeship.</p>
                 </div>
-                <div className="item">
-                  <h5>Adobe XD</h5>
-                  <h5>Figma</h5>
-                  <h5>Sketch</h5>
+
+                <div className="glass-tile">
+                  <h5>Bootcamp Graduate</h5>
+                  <p>Graduated from Tech Elevator’s immersive software engineering program.</p>
                 </div>
-                <div className="item">
-                  <h5>Team Management</h5>
-                  <h5>Design Thinking</h5>
-                  <h5>User Research</h5>
+
+                <div className="glass-tile">
+                  <h5>UX Certified</h5>
+                  <p>Earned the Google UX Design Professional Certification.</p>
                 </div>
-                <div className="item">
-                  <h5>HTML 5</h5>
-                  <h5>CSS3</h5>
-                  <h5>Javascript</h5>
+                <div className="glass-tile">
+                  <h5>Internal Platform Adoption</h5>
+                  <p>Built a custom platform adopted by 40+ internal users across departments.</p>
                 </div>
-              </Carousel>
+
+                <div className="glass-tile">
+                  <h5>Client Prototype Delivery</h5>
+                  <p>Led a React/Next.js prototype from concept to market-ready delivery.</p>
+                </div>
+
+                <div className="glass-tile">
+                  <h5>Mentorship Impact</h5>
+                  <p>Mentored i.c.stars |* cohorts with a 100% program completion rate.</p>
+                </div>
+                <div className="glass-tile">
+                  <h5>E-Commerce Builds</h5>
+                  <p>Built two fully responsive, production-ready e-commerce websites.</p>
+                </div>
+
+                <div className="glass-tile">
+                  <h5>Legacy Modernization</h5>
+                  <p>Refactored and modernized legacy applications using modern frameworks.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="decorative background" />
     </section>
   );
 };

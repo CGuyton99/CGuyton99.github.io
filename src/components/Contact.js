@@ -1,75 +1,53 @@
-import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/Communication.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
-  const formInitialDetails = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    message: ''
-  }
-  const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
-  const [status, setStatus] = useState({});
-
-  const onFormUpdate = (category, value) => {
-      setFormDetails({
-        ...formDetails,
-        [category]: value
-      })
-  }
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setButtonText("Sending...");
-    let response = await fetch("http://localhost:3000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    setButtonText("Send");
-    let result = await response.json();
-    setFormDetails(formInitialDetails);
-    if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
-    } else {
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
-    }
-  };
-
   return (
-    <section className="contact" id="connect">
+    <section className="contact dark-contact" id="connect">
       <Container>
-        <Row className="align-items-center">
-          <Col size={12} md={6}>
+        <Row className="justify-content-center text-center">
+          <Col lg={8}>
             <TrackVisibility>
-              {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
-              }
-            </TrackVisibility>
-          </Col>
-          <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
+              {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Want to Work Together?</h2>
-                <div className="links">
-                <p><b>Email:</b> <a href="mailto:cguytt3e@gmail.com?subject=Let's Connect!"> cguytt3e@gmail.com</a></p>
-                <p><b>Alternate Email:</b> <a href="mailto:cguyton@icstars.org?subject=Let's Connect!!">cguyton@icstars.org</a></p>
-                <p><b>Phone:</b> +1 (414) 399-8464</p>
-                <p><i>Or reach out to me via <a href="https://www.linkedin.com/in/cguyton99/" target="_blank" rel="noopener noreferrer">LinkedIn!</a></i></p>
+                  <h2 className="contact-title">Let's Connect</h2>
+                  <p className="contact-subtitle">
+                    I'm always open to new opportunities, collaborations, or just a chat. Reach out via email, phone, or LinkedIn!
+                  </p>
+
+                  <div className="contact-links">
+                    <p>
+                      <b>Email:</b>{" "}
+                      <a href="mailto:cguytt3e@gmail.com?subject=Let's Connect!">
+                        cguytt3e@gmail.com
+                      </a>
+                    </p>
+                    <p>
+                      <b>Alternate Email:</b>{" "}
+                      <a href="mailto:cguyton@icstars.org?subject=Let's Connect!!">
+                        cguyton@icstars.org
+                      </a>
+                    </p>
+                    <p>
+                      <b>Phone:</b> +1 (414) 399-8464
+                    </p>
+                    <p>
+                      <i>
+                        Or reach out via{" "}
+                        <a href="https://www.linkedin.com/in/cguyton99/" target="_blank" rel="noopener noreferrer">
+                          LinkedIn
+                        </a>
+                        !
+                      </i>
+                    </p>
+                  </div>
                 </div>
-              </div>}
+              )}
             </TrackVisibility>
           </Col>
         </Row>
       </Container>
     </section>
-  )
+  );
 }
