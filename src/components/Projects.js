@@ -17,7 +17,6 @@ import webDev3 from "../assets/img/NetflixWebDev.png";
 import webDev4 from "../assets/img/abdotcom.png";
 import webDev5 from "../assets/img/daiohs.png";
 import webDev6 from "../assets/img/MKEKiosk.png";
-import video1 from "../assets/img/MKEKiosk.mp4";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -194,7 +193,7 @@ export const Projects = () => {
                             title="Milwaukee County Kiosk Concept"
                             description="Developed during i.c.stars |* internship"
                             imgUrl={webDev6}
-                            videoUrl= {video1}
+                            videoUrl= {"https://www.youtube.com/embed/QqJJt0RpYAQ?si=o7L6H_cJfkJHzlBo"}
                           />
                           {webDev.map((project, index) => (
                             <ProjectCard key={index} {...project} />
