@@ -1,3 +1,0 @@
-static/media/MKEKiosk.d0170285dedcf97e009c.mp4 filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.pack filter=lfs diff=lfs merge=lfs -text
