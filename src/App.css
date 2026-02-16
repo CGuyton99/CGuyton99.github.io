@@ -688,14 +688,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .projects-tabs .nav-link.active {
-  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  background: linear-gradient(135deg, #6b38f8, #6366f1);
   color: #020617;
   border: none;
   box-shadow: 0 8px 28px rgba(56, 189, 248, 0.35);
 }
 
 .projects-tabs .nav-link:hover {
-  background: rgba(56, 189, 248, 0.15);
+  background: rgba(216, 56, 248, 0.15);
   color: #f8fafc;
 }
 
